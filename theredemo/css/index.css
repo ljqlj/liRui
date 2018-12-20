@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+html{
+    font-size: 50px;
+}
+body{
+    font-size: 12px;
+}
+
+.swiper-wrapper{
+    width:100%;
+    height:100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+    width:100%;
+    height:100%;
+}  
+.swiper-first{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 2.04rem;
+    height: .41rem;
+    left: .15rem;
+    top:.15rem;
+    z-index: 999;
+}
+.logo img{
+    width: 2.04rem;
+    height: .41rem;
+}
+.box{
+    background-size: 1rem;
+    background-image: url(../images/musicBtn.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: .6rem;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+.boxsize{
+    background-image: url(../images/musicBtnOff.png);
+}
+.box img{
+    width: .8rem;
+    height: .8rem;
+}
+.banner {
+    width: 3.58rem;
+    height: 1.41rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner .ico{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .ico img{
+    width: 3.58rem;
+    height: 1.39rem;
+}
+.content img{
+    margin-top:49%;
+    width:100%;
+    height: 7.7rem;
+    font-size: 100%;
+}
+.bg-animat{
+    width: 100%;
+    height: 100%;
+    height: 1.82rem;
+    display: flex;
+}
+.houst{
+    height: 1.82rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-size: 100% auto;
+    animation-direction: 10s;
+    animation-timing-function: linear;
+}
+.houst img{
+    width: 100%;
+    height: 1.82rem;
+}
+.houst1{
+    height: 1.82rem;
+    position: absolute;
+    bottom: 0;
+    left: -7.5rem;
+    width: 100%;
+    z-index: 2;
+    background-size: 100% auto;
+    animation-direction: 10s;
+    animation-timing-function: linear;
+}
+.houst1 img{
+    width: 100%;
+    height: 1.82rem;
+}
+@keyframes runnings{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(-.1rem);
+        opacity: 0.1;
+    }
+    40%{
+        transform: translateY(-.2rem);
+        opacity: 0.6;
+    }
+    60%{
+        transform: translateY(-.3rem);
+        opacity: 0.7;
+    }
+    80%{
+        transform: translateY(-.4rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+} 
+.b-logo{
+    z-index: 999;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 48%;
+    animation:runnings 1s infinite ease-in-out;
+}
+.b-logo img{
+    width:.38rem;
+    height:.54rem;
+}
+.swiper-two{
+    background:#fe657a;
+}
+.swiper-two .textleft{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 9;
+    width: 1.22rem;
+    height: 2.48rem;
+}
+.swiper-two .textleft img{
+    width: 1.22rem;
+    height: 2.48rem;
+}
+.abs{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.swiper-two .textright{
+    width: 1.14rem;
+    height: 3.39rem;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9;
+}
+.swiper-two .textright .img-top{
+    width: 1.14rem;
+    height: 3.39rem;
+}
+.swiper-two .textright .img-center{
+    width: .68rem;
+    height: .68rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.swiper-two .textright .img-fot{
+    width: .44rem;
+    height: 2.04rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.swiper-two .rolebox{
+    width:6.5rem;
+    height: 10rem;
+    position: relative;
+    top: 6%;
+    float:right;
+}
+.swiper-two .rolebox .role{
+    width:6.5rem;
+    height:10rem;
+}
+.swiper-two .rolebox .role img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-two .rolebox .lights {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-two .rolebox .lights img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-two .rolebox .star {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-two .rolebox .star img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-two .s-logo{
+    z-index: 999;
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+    animation:runnings 1s infinite ease-in-out;
+}
+.swiper-two .s-logo img{
+    width:.38rem;
+    height:.54rem;
+}
+.swiper-there{
+    background: #09bee3;
+}
+.swiper-there .textleft{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9;
+    width: 1.22rem;
+    height: 2.48rem;
+}
+.swiper-there .textleft img{
+    width: 1.22rem;
+    height: 2.48rem;
+}
+.abs{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.swiper-there .textright{
+    width: 1.14rem;
+    height: 3.39rem;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 9;
+}
+.swiper-there .textright .img-top{
+    width: 1.14rem;
+    height: 3.39rem;
+}
+.swiper-there .textright .img-center{
+    width: .68rem;
+    height: .68rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.swiper-there .textright .img-fot{
+    width: .44rem;
+    height: 2.04rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.swiper-there .rolebox{
+    width:6.5rem;
+    height: 10rem;
+    position: relative;
+    top: 6%;
+}
+.swiper-there .rolebox .role{
+    width:6.5rem;
+    height:10rem;
+}
+.swiper-there .rolebox .role img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-there .rolebox .lights {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-there .rolebox .lights img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-there .rolebox .star {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-there .rolebox .star img{
+    width:6.5rem;
+    height: 10rem;
+}
+.swiper-there .s-logo{
+    z-index: 999;
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+    animation:runnings 1s infinite ease-in-out;
+}
+.swiper-there .s-logo img{
+    width:.38rem;
+    height:.54rem;
+}
+.swiper-f{
+    background: #36a15c;
+}
+.swiper-f img{
+    width: 100%;
+}
+.count-dog{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 111;
+}
+.count-txtd{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-miao{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-btnc{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-btn{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-lights{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-clights{
+    z-index: 112;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.count-foot{
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -1.12rem;
+    height: .61rem;
+}
+.swiper-f .f-img{
+    width: 1.66rem;
+    height: .61rem;
+}
+.swiper-f .foot-f{
+    width: 1.66rem;
+    height: .61rem;
+    position: absolute;
+    bottom: 0;
+    left: 2.9rem;
+}
+.swiper-f .s-logo{
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    animation:runnings 1s infinite ease-in-out;
+}
+.swiper-f .s-logo img{
+    width:.38rem;
+    height:.54rem;
+}
+.swiper-sex{
+    background: #669cff;
+}
+.swiper-sex .txt{
+    text-align: center;
+    padding: 14% 0 0;
+}
+.swiper-sex .txt img{
+    width: 2.59rem;
+    height: 1.6rem;
+}
+.swiper-sex .dots{
+    text-align: center;
+    padding: 14% 0 0;
+}
+.swiper-sex .dots img{
+    width: .04rem;
+    height: .7rem;
+}
+.titles{
+    width:100%;
+    position: absolute;
+    top: 50%;
+}
+.titles .t-ico{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.titles .t-ico img{
+    width: 100%;
+}
+.swiper-sex .foot-f{
+    width: 1.66rem;
+    height: .61rem;
+    position: absolute;
+    bottom: 0;
+    left: 2.9rem;
+}
+.swiper-sex .s-logo{
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    animation:runnings 1s infinite ease-in-out;
+}
+.swiper-sex .s-logo img{
+    width:.38rem;
+    height:.54rem;
+}
+.ttt{
+    font-size: 50px;
+    color: #669cff;
+    font-weight: bold;
+    text-align: center;
+    margin: 20% auto;
+}
+.ttt img{
+    width:4.33rem;
+    height: .45rem;
+}
+.searchbox{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 0 15%;
+    position: relative;
+}
+.layer{
+    background: url(../images/iconsZoom.png) 50% 50% no-repeat #669cff;
+    height: 100%;
+    width: .7rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btnbox{
+        position: absolute;
+    bottom: 12%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.btnbox .img-1{
+    width: 1.47rem;
+    height: .47rem;
+}
+.btns{
+    width: 100%;
+}
+.btns a{
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+}
+.btns a img{
+    width: 2.05rem;
+    height: .54rem;
+}
+
